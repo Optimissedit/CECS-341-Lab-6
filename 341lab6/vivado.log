@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Apr 26 10:38:59 2021
+# Process ID: 13696
+# Current directory: E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3676 E:\Documents\VivadoProjs\CECS-341-Lab-6\341lab6\341lab6.xpr
+# Log file: E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6/vivado.log
+# Journal file: E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6/341lab6.xpr
+INFO: [Project 1-313] Project file moved from 'E:/Documents/VivadoProjs/341lab6' since last save.
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6/341lab6.gen/sources_1', nor could it be found using path 'E:/Documents/VivadoProjs/341lab6/341lab6.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Programs-Games/Xilinx/Vivado/2020.2/data/ip'.
+update_compile_order -fileset sources_1
+open_project E:/Documents/VivadoProjs/lab5/lab5.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'E:/Documents/VivadoProjs/lab5/lab5.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Programs-Games/Xilinx/Vivado/2020.2/data/ip'.
+update_compile_order -fileset sources_1
+current_project 341lab6
+update_files -from_files C:/Users/Sam/Desktop/DataMem.dat -to_files E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6/341lab6.srcs/sim_1/imports/Desktop/DataMem.dat -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6/341lab6.srcs/sim_1/imports/Desktop/DataMem.dat' with file 'C:/Users/Sam/Desktop/DataMem.dat'.
+INFO: [filemgmt 20-1080] Importing file from 'C:/Users/Sam/Desktop/DataMem.dat' to 'E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6/341lab6.srcs/sim_1/imports/Desktop/DataMem.dat'.

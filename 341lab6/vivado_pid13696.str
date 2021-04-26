@@ -1,0 +1,186 @@
+/*
+
+Xilinx Vivado v2020.2 (64-bit) [Major: 2020, Minor: 2]
+SW Build: 3064766 on Wed Nov 18 09:12:45 MST 2020
+IP Build: 3064653 on Wed Nov 18 14:17:31 MST 2020
+
+Process ID (PID): 13696
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Mon Apr 26 10:39:13 PDT 2021
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 2
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.2 64-bit
+Java home: 	E:/Programs-Games/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2
+Java executable location: 	E:/Programs-Games/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Sam
+User home directory: C:/Users/Sam
+User working directory: E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: E:/Programs-Games/Xilinx/Vivado
+HDI_APPROOT: E:/Programs-Games/Xilinx/Vivado/2020.2
+RDI_DATADIR: E:/Programs-Games/Xilinx/Vivado/2020.2/data
+RDI_BINDIR: E:/Programs-Games/Xilinx/Vivado/2020.2/bin
+
+Vivado preferences file location: C:/Users/Sam/AppData/Roaming/Xilinx/Vivado/2020.2/vivado.xml
+Vivado preferences directory: C:/Users/Sam/AppData/Roaming/Xilinx/Vivado/2020.2/
+Vivado layouts directory: C:/Users/Sam/AppData/Roaming/Xilinx/Vivado/2020.2/data/layouts
+PlanAhead jar file location: 	E:/Programs-Games/Xilinx/Vivado/2020.2/lib/classes/planAhead.jar
+Vivado log file location: 	E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6/vivado.log
+Vivado journal file location: 	E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6/vivado.jou
+Engine tmp dir: 	E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6/.Xil/Vivado-13696-The-Destroyer
+
+Xilinx Environment Variables
+----------------------------
+XILINX: E:/Programs-Games/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_DSP: E:/Programs-Games/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_HLS: E:/Programs-Games/Xilinx/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: E:/Programs-Games/Xilinx/Vivado/2020.2
+XILINX_VIVADO: E:/Programs-Games/Xilinx/Vivado/2020.2
+XILINX_VIVADO_HLS: E:/Programs-Games/Xilinx/Vivado/2020.2
+
+
+GUI allocated memory:	190 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,029 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cr):  Open Project : addNotify
+// Opening Vivado Project: E:\Documents\VivadoProjs\CECS-341-Lab-6\341lab6\341lab6.xpr. Version: Vivado v2020.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6/341lab6.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6/341lab6.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'E:/Documents/VivadoProjs/341lab6' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 84 MB (+85710kb) [00:00:09]
+// [Engine Memory]: 1,029 MB (+927832kb) [00:00:09]
+// [GUI Memory]: 105 MB (+17058kb) [00:00:09]
+// WARNING: HEventQueue.dispatchEvent() is taking  2494 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Programs-Games/Xilinx/Vivado/2020.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,029 MB. GUI used memory: 69 MB. Current time: 4/26/21, 10:39:13 AM PDT
+// Project name: 341lab6; location: E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6; part: xc7k70tfbv676-1
+dismissDialog("Open Project"); // bz
+// [GUI Memory]: 121 MB (+11991kb) [00:00:12]
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// [GUI Memory]: 135 MB (+7482kb) [00:00:14]
+// Tcl Message: update_compile_order -fileset sources_1 
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath_tb (Datapath_tb.v), uut : Datapath (Datapath.v)]", 2); // D
+// [GUI Memory]: 142 MB (+611kb) [00:02:04]
+// Elapsed time: 147 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ac
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent"); // ah
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent"); // ah
+selectMenuItem(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "E:/Documents/VivadoProjs/lab5/lab5.xpr"); // ak
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ac
+// Opening Vivado Project: E:/Documents/VivadoProjs/lab5/lab5.xpr. Version: Vivado v2020.2 
+// bz (cr):  Open Project : addNotify
+selectButton("OptionPane.button", "No"); // JButton
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project E:/Documents/VivadoProjs/lab5/lab5.xpr 
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  2786 ms.
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Programs-Games/Xilinx/Vivado/2020.2/data/ip'. 
+// Project name: lab5; location: E:/Documents/VivadoProjs/lab5; part: xc7k70tfbv676-1
+dismissDialog("Open Project"); // bz
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 0); // D
+// Tcl Message: update_compile_order -fileset sources_1 
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 4); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Data Files]", 6); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Data Files, DataMem.dat]", 7, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Data Files, DataMem.dat]", 7, false, false, false, false, false, true); // D - Double Click
+// ag (cr): Unable to Open File: addNotify
+selectButton(PAResourceOtoP.OpenFileAction_OPEN_DIRECTORY, "Open Directory"); // a
+dismissDialog("Unable to Open File"); // ag
+// [GUI Memory]: 151 MB (+1682kb) [00:03:34]
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 105 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 12); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 13); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Data Files]", 15); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Data Files, DataMem.dat]", 16, false); // D
+// Tcl Message: current_project 341lab6 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Data Files, DataMem.dat]", 16, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_REPLACE_FILE, "Replace File..."); // ak
+// Run Command: PAResourceCommand.PACommandNames_SRC_REPLACE_FILE
+setFileChooser("C:/Users/Sam/Desktop/DataMem.dat");
+// 'dN' command handler elapsed time: 3 seconds
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_files -from_files C:/Users/Sam/Desktop/DataMem.dat -to_files E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6/341lab6.srcs/sim_1/imports/Desktop/DataMem.dat -filesets [get_filesets *] 
+// Tcl Message: INFO: [filemgmt 20-762] Replacing file 'E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6/341lab6.srcs/sim_1/imports/Desktop/DataMem.dat' with file 'C:/Users/Sam/Desktop/DataMem.dat'. INFO: [filemgmt 20-1080] Importing file from 'C:/Users/Sam/Desktop/DataMem.dat' to 'E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6/341lab6.srcs/sim_1/imports/Desktop/DataMem.dat'. 
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Data Files, DataMem.dat]", 16, false, false, false, false, true, false); // D - Popup Trigger
+selectMenuItem(PAResourceQtoS.SrcMenu_OPEN_SELECTED_SOURCE_FILES, "Open File"); // ak
+// ag (cr): Unable to Open File: addNotify
+selectButton(PAResourceOtoP.OpenFileAction_OPEN_DIRECTORY, "Open Directory"); // a
+dismissDialog("Unable to Open File"); // ag
