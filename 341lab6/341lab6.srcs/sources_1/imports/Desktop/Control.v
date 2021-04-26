@@ -175,15 +175,15 @@ module Control(
 				end
 				// JUMP CASE! (J Type) Todo: find control signal values
 				6'h02: begin
-				    RegWrite = 1'bx;               
-					Regdst   = 1'bx;                //[20-16]
-					Branch   = 2'bx;                
-					Memread  = 1'bx;                
-					MemtoReg = 1'bx;                
-					MemWrite = 1'bx;             
-					ALUSrc   = 1'bx;       
-					Jump = 1'b1;          // No jump required              
-					ALUCntl = 4'bxxxx;   // set less than unsigned
+				    RegWrite = 1'b0;     // not writing to registers
+					Regdst   = 1'b0;     //[20-16] not used
+					Branch   = 2'b0;     // no branch
+					Memread  = 1'b0;     // not reading from mem               
+					MemtoReg = 1'b0;     // not loading values to reg
+					MemWrite = 1'b0;     // not writing to mem
+					ALUSrc   = 1'b0;     // alu not needed
+					Jump = 1'b1;          // jump!            
+					ALUCntl = 4'b0000;   // and (default, logic not used)
 				end
 				default:begin    
 					RegWrite = 1'b0;               
