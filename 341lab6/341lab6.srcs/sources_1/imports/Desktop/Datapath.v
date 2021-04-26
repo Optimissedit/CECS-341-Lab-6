@@ -61,12 +61,18 @@ module Datapath(
     assign ALU_mux = (ALUSrc) ? signExt : rt;
     assign D_mux = (MemtoReg) ? rd_data : ALUout;
     
-//    always@(posedge clk, posedge reset) begin
-//        if(reset == 1)
-//            D_out <= 32'b0;
-//        else 
-//            D_out <= D_mux;
-//    end
+    //added for lab6
+    wire [31:0] jumpAddress, Jump_mux;
+    wire Jump;
+    assign jumpAddress = {PCADD4_out[31:28], instr[25:0], 2'b0};
+    assign Jump_mux = (Jump) ? jumpAddress : ADD_mux;
+    
+    always@(posedge clk, posedge reset) begin
+        if(reset == 1)
+            D_out <= 32'b0;
+        else 
+            D_out <= D_mux;
+    end
     
     PC 
         PC(.clk(clk), .reset(reset), .PC_in(ADD_mux), .PC_out(PC_out));

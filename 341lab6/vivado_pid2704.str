@@ -1,0 +1,199 @@
+/*
+
+Xilinx Vivado v2020.2 (64-bit) [Major: 2020, Minor: 2]
+SW Build: 3064766 on Wed Nov 18 09:12:45 MST 2020
+IP Build: 3064653 on Wed Nov 18 14:17:31 MST 2020
+
+Process ID (PID): 2704
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Mon Apr 26 12:20:19 PDT 2021
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 2
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.2 64-bit
+Java home: 	D:/Xilinx_Vivado/Vivado/2020.2/tps/win64/jre11.0.2
+Java executable location: 	D:/Xilinx_Vivado/Vivado/2020.2/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	BanhMi
+User home directory: C:/Users/Banh Mi
+User working directory: D:/GitHubRepos/CECS341/CECS-341-Lab-6/341lab6
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: D:/Xilinx_Vivado/Vivado
+HDI_APPROOT: D:/Xilinx_Vivado/Vivado/2020.2
+RDI_DATADIR: D:/Xilinx_Vivado/Vivado/2020.2/data
+RDI_BINDIR: D:/Xilinx_Vivado/Vivado/2020.2/bin
+
+Vivado preferences file location: C:/Users/Banh Mi/AppData/Roaming/Xilinx/Vivado/2020.2/vivado.xml
+Vivado preferences directory: C:/Users/Banh Mi/AppData/Roaming/Xilinx/Vivado/2020.2/
+Vivado layouts directory: C:/Users/Banh Mi/AppData/Roaming/Xilinx/Vivado/2020.2/data/layouts
+PlanAhead jar file location: 	D:/Xilinx_Vivado/Vivado/2020.2/lib/classes/planAhead.jar
+Vivado log file location: 	D:/GitHubRepos/CECS341/CECS-341-Lab-6/341lab6/vivado.log
+Vivado journal file location: 	D:/GitHubRepos/CECS341/CECS-341-Lab-6/341lab6/vivado.jou
+Engine tmp dir: 	D:/GitHubRepos/CECS341/CECS-341-Lab-6/341lab6/.Xil/Vivado-2704-DESKTOP-A6K14TA
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Xilinx_Vivado/Vivado/2020.2/ids_lite/ISE
+XILINX_DSP: D:/Xilinx_Vivado/Vivado/2020.2/ids_lite/ISE
+XILINX_HLS: D:/Xilinx_Vivado/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: D:/Xilinx_Vivado/Vivado/2020.2
+XILINX_VIVADO: D:/Xilinx_Vivado/Vivado/2020.2
+XILINX_VIVADO_HLS: D:/Xilinx_Vivado/Vivado/2020.2
+
+
+GUI allocated memory:	159 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,030 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cr):  Open Project : addNotify
+// Opening Vivado Project: D:\GitHubRepos\CECS341\CECS-341-Lab-6\341lab6\341lab6.xpr. Version: Vivado v2020.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/GitHubRepos/CECS341/CECS-341-Lab-6/341lab6/341lab6.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 81 MB (+82426kb) [00:00:08]
+// [Engine Memory]: 1,030 MB (+928709kb) [00:00:08]
+// [GUI Memory]: 101 MB (+17222kb) [00:00:08]
+// WARNING: HEventQueue.dispatchEvent() is taking  2286 ms.
+// Tcl Message: open_project D:/GitHubRepos/CECS341/CECS-341-Lab-6/341lab6/341lab6.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx_Vivado/Vivado/2020.2/data/ip'. 
+// Project name: 341lab6; location: D:/GitHubRepos/CECS341/CECS-341-Lab-6/341lab6; part: xc7k70tfbv676-1
+dismissDialog("Open Project"); // bz
+// HMemoryUtils.trashcanNow. Engine heap size: 1,030 MB. GUI used memory: 56 MB. Current time: 4/26/21, 12:20:20 PM PDT
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 114 MB (+7917kb) [00:00:26]
+// Elapsed time: 17 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath_tb (Datapath_tb.v)]", 1); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath_tb (Datapath_tb.v), uut : Datapath (Datapath.v)]", 2); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath_tb (Datapath_tb.v), uut : Datapath (Datapath.v), PC : PC (PC.v)]", 3, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath_tb (Datapath_tb.v), uut : Datapath (Datapath.v), PC : PC (PC.v)]", 3, false, false, false, false, false, true); // D - Double Click
+// [GUI Memory]: 125 MB (+5159kb) [00:02:05]
+// Elapsed time: 90 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath_tb (Datapath_tb.v), uut : Datapath (Datapath.v), Control : Control (Control.v)]", 7, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath_tb (Datapath_tb.v), uut : Datapath (Datapath.v), Control : Control (Control.v)]", 7, false, false, false, false, false, true); // D - Double Click
+// Elapsed time: 35 seconds
+selectCodeEditor("Control.v", 243, 325); // bP
+selectCodeEditor("Control.v", 246, 325); // bP
+// [GUI Memory]: 133 MB (+2438kb) [00:05:35]
+// Elapsed time: 233 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath_tb (Datapath_tb.v), uut : Datapath (Datapath.v), PC : PC (PC.v)]", 3, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath_tb (Datapath_tb.v), uut : Datapath (Datapath.v), PC : PC (PC.v)]", 3, false, false, false, false, false, true); // D - Double Click
+// Elapsed time: 33 seconds
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PC.v", 1, true, false); // m - Popup Trigger
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PC.v", 1); // m
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Control.v", 1); // m
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath_tb (Datapath_tb.v), uut : Datapath (Datapath.v), PCADD_4 : PCADD (PCADD.v)]", 4, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath_tb (Datapath_tb.v), uut : Datapath (Datapath.v), PCADD_4 : PCADD (PCADD.v)]", 4, false, false, false, false, false, true); // D - Double Click
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath_tb (Datapath_tb.v), uut : Datapath (Datapath.v), PCADD_SHFT : PCADD (PCADD.v)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath_tb (Datapath_tb.v), uut : Datapath (Datapath.v), PCADD_SHFT : PCADD (PCADD.v)]", 5, false, false, false, false, false, true); // D - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath_tb (Datapath_tb.v), uut : Datapath (Datapath.v), PCADD_SHFT : PCADD (PCADD.v)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath_tb (Datapath_tb.v), uut : Datapath (Datapath.v), PCADD_SHFT : PCADD (PCADD.v)]", 5, false, false, false, false, false, true); // D - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath_tb (Datapath_tb.v), uut : Datapath (Datapath.v), Instruction_Memory : Instruction_Memory (Instruction_Memory.v)]", 6, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath_tb (Datapath_tb.v), uut : Datapath (Datapath.v), Instruction_Memory : Instruction_Memory (Instruction_Memory.v)]", 6, false, false, false, false, false, true); // D - Double Click
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath_tb (Datapath_tb.v), uut : Datapath (Datapath.v), Control : Control (Control.v)]", 7, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath_tb (Datapath_tb.v), uut : Datapath (Datapath.v), Control : Control (Control.v)]", 7, false, false, false, false, false, true); // D - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Control.v", 1); // m
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Control.v", 1); // m
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath_tb (Datapath_tb.v), uut : Datapath (Datapath.v), regfile32 : regfile32 (regfile32.v)]", 8, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath_tb (Datapath_tb.v), uut : Datapath (Datapath.v), regfile32 : regfile32 (regfile32.v)]", 8, false, false, false, false, false, true); // D - Double Click
+// Elapsed time: 20 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath_tb (Datapath_tb.v), uut : Datapath (Datapath.v), ALU : ALU (ALU.v)]", 9, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath_tb (Datapath_tb.v), uut : Datapath (Datapath.v), ALU : ALU (ALU.v)]", 9, false, false, false, false, false, true); // D - Double Click
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU.v", 2); // m
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "ALU.v", 1); // m
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+// Elapsed time: 70 seconds
+maximizeFrame(RDIResource.RDIViews_PROPERTIES, "Properties"); // az
+unMaximizeFrame(RDIResource.RDIViews_PROPERTIES, "Properties"); // az
+// Elapsed time: 184 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // az
+unMinimizeFrame(RDIResource.RDIViews_PROPERTIES, "Properties"); // az
+// Elapsed time: 498 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath_tb (Datapath_tb.v)]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Datapath_tb (Datapath_tb.v)]", 1, true, false, false, false, false, true); // D - Double Click - Node
+// Elapsed time: 20 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 4); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Datapath_tb (Datapath_tb.v)]", 5); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Datapath_tb (Datapath_tb.v), uut : Datapath (Datapath.v)]", 6, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Datapath_tb (Datapath_tb.v), uut : Datapath (Datapath.v), Instruction_Memory : Instruction_Memory (Instruction_Memory.v)]", 10, false, false, false, false, false, true); // D - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Datapath_tb (Datapath_tb.v), uut : Datapath (Datapath.v)]", 6, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Datapath_tb (Datapath_tb.v), uut : Datapath (Datapath.v)]", 6, true, false, false, false, false, true); // D - Double Click - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Datapath.v", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Datapath.v", 1); // m
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+// Elapsed time: 18 seconds
+selectCodeEditor("Datapath.v", 406, 212); // bP
+typeControlKey((HResource) null, "Datapath.v", 'v'); // bP
+selectCodeEditor("Datapath.v", 148, 255); // bP
+selectCodeEditor("Datapath.v", 52, 256); // bP
+selectCodeEditor("Datapath.v", 52, 256, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Datapath.v", 58, 254); // bP
+selectCodeEditor("Datapath.v", 58, 254, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Datapath.v", 16, 411); // bP
+selectCodeEditor("Datapath.v", 21, 399); // bP
+selectCodeEditor("Datapath.v", 16, 393); // bP
+selectCodeEditor("Datapath.v", 18, 373); // bP
+selectCodeEditor("Datapath.v", 15, 355); // bP
+selectCodeEditor("Datapath.v", 19, 335); // bP
+selectCodeEditor("Datapath.v", 16, 315); // bP
+selectCodeEditor("Datapath.v", 287, 374); // bP
+selectCodeEditor("Datapath.v", 264, 409); // bP
+selectCodeEditor("Datapath.v", 326, 327); // bP
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
