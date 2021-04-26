@@ -30,7 +30,8 @@ module Control(
     output reg Memread,
     output reg MemtoReg,
     output reg MemWrite,
-    output reg ALUSrc
+    output reg ALUSrc,
+    output reg Jump
     );
     
     always@(*) begin
@@ -43,6 +44,7 @@ module Control(
             MemtoReg = 1'b0;                //write back data comes from alu
             MemWrite = 1'b0;                //no write to memory
             ALUSrc   = 1'b0;                // source b comes from register file 
+            Jump = 1'b0;                    // No jump required
             case(Func)
                 6'h20: ALUCntl = 4'b1010;    // add signed
                 6'h21: ALUCntl = 4'b0010;    // add unsigned        
@@ -67,7 +69,8 @@ module Control(
 					Memread  = 1'b0;                
 					MemtoReg = 1'b0;                
 					MemWrite = 1'b0;             
-					ALUSrc   = 1'b1;                
+					ALUSrc   = 1'b1;          
+					Jump = 1'b0;          // No jump required      
 					ALUCntl = 4'b1010;    // add signed
 			    end
 				6'h09: begin            //addiu
@@ -77,7 +80,8 @@ module Control(
 					Memread  = 1'b0;                
 					MemtoReg = 1'b0;                
 					MemWrite = 1'b0;             
-					ALUSrc   = 1'b1;                
+					ALUSrc   = 1'b1;     
+					Jump = 1'b0;          // No jump required                
 					ALUCntl = 4'b0010;    // add unsigned
 				end
                 6'h0c: begin            //andi
@@ -87,7 +91,8 @@ module Control(
 					Memread  = 1'b0;                
 					MemtoReg = 1'b0;                
 					MemWrite = 1'b0;             
-					ALUSrc   = 1'b1;                
+					ALUSrc   = 1'b1;   
+					Jump = 1'b0;          // No jump required                  
 					ALUCntl = 4'b0000;    // and
 				end
                 6'h0D: begin            //ori
@@ -97,7 +102,8 @@ module Control(
 					Memread  = 1'b0;                
 					MemtoReg = 1'b0;                
 					MemWrite = 1'b0;             
-					ALUSrc   = 1'b1;                
+					ALUSrc   = 1'b1;   
+					Jump = 1'b0;          // No jump required                  
 					ALUCntl = 4'b0001;   // or 
 				end
 			    6'h23: begin             //lw
@@ -107,7 +113,8 @@ module Control(
 					Memread  = 1'b1;                
 					MemtoReg = 1'b1;                
 					MemWrite = 1'b0;             
-					ALUSrc   = 1'b1;                
+					ALUSrc   = 1'b1;    
+					Jump = 1'b0;          // No jump required                 
 					ALUCntl = 4'b1010;    // add signed
 				end
 				6'h2B: begin            //sw
@@ -117,7 +124,8 @@ module Control(
 					Memread  = 1'b0;                
 					MemtoReg = 1'b0;                
 					MemWrite = 1'b1;             
-					ALUSrc   = 1'b1;                
+					ALUSrc   = 1'b1;    
+					Jump = 1'b0;          // No jump required                 
 					ALUCntl = 4'b1010;    // add signed
 				end
 				6'h04: begin            //beq
@@ -127,7 +135,8 @@ module Control(
 					Memread  = 1'b0;                
 					MemtoReg = 1'b0;                
 					MemWrite = 1'b1;             
-					ALUSrc   = 1'b0;                
+					ALUSrc   = 1'b0;    
+					Jump = 1'b0;          // No jump required                 
 					ALUCntl = 4'b1110;    // subtract signed
 				end
 			    6'h05: begin         //bne
@@ -137,7 +146,8 @@ module Control(
 					Memread  = 1'b0;                
 					MemtoReg = 1'b0;                
 					MemWrite = 1'b0;             
-					ALUSrc   = 1'b0;                
+					ALUSrc   = 1'b0;      
+					Jump = 1'b0;          // No jump required               
 					ALUCntl = 4'b1110;    // subtract signed
 				end
 				6'h0A: begin            //slti
@@ -147,7 +157,8 @@ module Control(
 					Memread  = 1'b0;                
 					MemtoReg = 1'b0;                
 					MemWrite = 1'b0;             
-					ALUSrc   = 1'b1;                
+					ALUSrc   = 1'b1;      
+					Jump = 1'b0;          // No jump required               
 					ALUCntl = 4'b1000;   // set less than
 				end
 				6'h0B: begin            //sltiu
@@ -157,7 +168,8 @@ module Control(
 					Memread  = 1'b0;                
 					MemtoReg = 1'b0;                
 					MemWrite = 1'b0;             
-					ALUSrc   = 1'b1;                
+					ALUSrc   = 1'b1;       
+					Jump = 1'b0;          // No jump required              
 					ALUCntl = 4'b1001;   // set less than unsigned
 				end
 				default:begin    
@@ -167,10 +179,18 @@ module Control(
 					Memread  = 1'b0;                
 					MemtoReg = 1'b0;                
 					MemWrite = 1'b0;             
-					ALUSrc   = 1'b1;                
+					ALUSrc   = 1'b1;         
+					Jump = 1'b0;          // No jump required            
 					ALUCntl  = 4'b1010;
 				end
-			endcase
+			endcase		
+		end
+		
+		// J type TODO: fix J-type control signals
+		else begin
+		  if(Op == 6'h02) begin
+		      Jump = 1'b1;          // unconditional jump
+		  end		      
 		end
     end
 endmodule
