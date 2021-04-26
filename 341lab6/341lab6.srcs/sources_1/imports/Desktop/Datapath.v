@@ -64,7 +64,9 @@ module Datapath(
     //added for lab6
     wire [31:0] jumpAddress, Jump_mux;
     wire Jump;
-    assign jumpAddress = {PCADD4_out[31:28], instr[25:0], 2'b0};
+    wire jumpShift;
+    assign jumpShift = instr[25:0] << 2;
+    assign jumpAddress = {PCADD4_out[31:28], jumpShift, 2'b0};
     assign Jump_mux = (Jump) ? jumpAddress : ADD_mux;
     
     always@(posedge clk, posedge reset) begin
@@ -75,7 +77,7 @@ module Datapath(
     end
     
     PC 
-        PC(.clk(clk), .reset(reset), .PC_in(ADD_mux), .PC_out(PC_out));
+        PC(.clk(clk), .reset(reset), .PC_in(Jump_mux), .PC_out(PC_out));
     
     PCADD 
         PCADD_4(.PC_in0(PC_out), .PC_in1(32'b100), .PC_out(PCADD4_out)),
@@ -85,7 +87,7 @@ module Datapath(
         Instruction_Memory(.Addr(PC_out), .Inst_out(instr));
         
     Control
-        Control(.Op(instr[31:26]), .Func(instr[5:0]), .ALUCntl(ALUCntl), .RegWrite(regWrite), .Regdst(RegDst), .Branch(Branch), .Memread(MemRead), .MemtoReg(MemtoReg), .MemWrite(MemWrite), .ALUSrc(ALUSrc));
+        Control(.Op(instr[31:26]), .Func(instr[5:0]), .ALUCntl(ALUCntl), .RegWrite(regWrite), .Regdst(RegDst), .Branch(Branch), .Memread(MemRead), .MemtoReg(MemtoReg), .MemWrite(MemWrite), .ALUSrc(ALUSrc), .Jump(Jump));
         
     regfile32
         regfile32(.clk(clk), .reset(reset), .D_En(regWrite), .S_Addr(instr[25:21]), .T_Addr(instr[20:16]), .D_Addr(RegDst_mux), .D(D_mux), .S(rs), .T(rt));
