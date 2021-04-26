@@ -43,12 +43,12 @@ module Datapath_tb();
         $timeformat(-9, 1, " ns", 9);
         // Loop to display dout after each instruction
         $display("Initial Values:");
-        for(i = 0; i < 21; i = i + 4) begin
+        for(i = 0; i < 17; i = i + 4) begin
             @(posedge clk)
             $display("t=%t  address[%0d]:    %h%h%h%h", $time, i, uut.DataMem.dmem[i], uut.DataMem.dmem[i+1], uut.DataMem.dmem[i+2], uut.DataMem.dmem[i+3]);
             end
         $display("Final Values:");
-        for(i = 24; i < 45; i = i + 4) begin
+        for(i = 20; i < 37; i = i + 4) begin
             @(posedge clk)
             $display("t=%t  address[%0d]:    %h%h%h%h", $time, i, uut.DataMem.dmem[i], uut.DataMem.dmem[i+1], uut.DataMem.dmem[i+2], uut.DataMem.dmem[i+3]);
             end
@@ -56,10 +56,10 @@ module Datapath_tb();
     endtask
     
     initial begin
-        clk = 0; reset = 1; #20;
+        clk = 0; reset = 1; #45;
         $readmemh("imem.dat", uut.Instruction_Memory.imem);
         $readmemh("DataMem.dat", uut.DataMem.dmem);
-        reset = 0; #600;
+        reset = 0; #900;
         Dump_DataMem;
         $finish;
     end
