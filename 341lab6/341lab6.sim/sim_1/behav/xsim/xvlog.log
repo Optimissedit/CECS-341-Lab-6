@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Documents/VivadoProjs/341lab6/341lab6.srcs/sources_1/imports/Desktop/Control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Documents/VivadoProjs/341lab6/341lab6.srcs/sources_1/imports/Desktop/DataMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMem

@@ -1,0 +1,17 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Initial Values:
+t= 630.0 ns  address[0]:    00000000
+t= 650.0 ns  address[4]:    0000ffff
+t= 670.0 ns  address[8]:    12345678
+t= 690.0 ns  address[12]:    00000008
+t= 710.0 ns  address[16]:    00000001
+t= 730.0 ns  address[20]:    00000003
+Final Values:
+t= 750.0 ns  address[24]:    00000002
+t= 770.0 ns  address[28]:    00000000
+t= 790.0 ns  address[32]:    1234567f
+t= 810.0 ns  address[36]:    00000001
+t= 830.0 ns  address[40]:    00000000
+t= 850.0 ns  address[44]:    00000000
+$finish called at time : 850 ns : File "E:/Documents/VivadoProjs/341lab6/341lab6.srcs/sources_1/imports/Desktop/Datapath_tb.v" Line 64
