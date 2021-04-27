@@ -183,7 +183,7 @@ module Control(
 					MemWrite = 1'b0;     // not writing to mem
 					ALUSrc   = 1'b0;     // alu not needed
 					Jump = 1'b1;          // jump!            
-					ALUCntl = 4'b0000;   // and (default, logic not used)
+					ALUCntl = 4'b1111;   // and (default, logic not used)
 				end
 				default:begin    
 					RegWrite = 1'b0;               

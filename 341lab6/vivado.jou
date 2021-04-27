@@ -12,3 +12,27 @@
 start_gui
 open_project D:/GitHubRepos/CECS341/CECS-341-Lab-6/341lab6/341lab6.xpr
 update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Datapath [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+launch_simulation
+source Datapath_tb.tcl
+close_sim
+close_design
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+refresh_design
+close_design
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+refresh_design
+refresh_design
+close_design
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+refresh_design
+refresh_design
+close_design
+synth_design -rtl -rtl_skip_mlo -name rtl_1
