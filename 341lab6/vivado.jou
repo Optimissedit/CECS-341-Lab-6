@@ -36,3 +36,4 @@ refresh_design
 refresh_design
 close_design
 synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_design
