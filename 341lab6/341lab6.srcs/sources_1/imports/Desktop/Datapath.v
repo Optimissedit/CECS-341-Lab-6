@@ -64,7 +64,9 @@ module Datapath(
     //added for lab6
     wire [31:0] jumpAddress, Jump_mux;
     wire Jump;
-    assign jumpAddress = {PCADD4_out[31:28], instr[25:0], 2'b0};
+    wire jumpShift;
+    assign jumpShift = instr[25:0] << 2;
+    assign jumpAddress = {PCADD4_out[31:28], jumpShift, 2'b0};
     assign Jump_mux = (Jump) ? jumpAddress : ADD_mux;
     
     always@(posedge clk, posedge reset) begin

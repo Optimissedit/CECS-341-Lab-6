@@ -48,7 +48,7 @@ module Datapath_tb();
             $display("t=%t  address[%0d]:    %h%h%h%h", $time, i, uut.DataMem.dmem[i], uut.DataMem.dmem[i+1], uut.DataMem.dmem[i+2], uut.DataMem.dmem[i+3]);
             end
         $display("Final Values:");
-        for(i = 20; i < 37; i = i + 4) begin
+        for(i = 0; i < 17; i = i + 4) begin
             @(posedge clk)
             $display("t=%t  address[%0d]:    %h%h%h%h", $time, i, uut.DataMem.dmem[i], uut.DataMem.dmem[i+1], uut.DataMem.dmem[i+2], uut.DataMem.dmem[i+3]);
             end

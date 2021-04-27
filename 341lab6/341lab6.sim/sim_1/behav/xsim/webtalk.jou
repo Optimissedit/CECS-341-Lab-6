@@ -2,11 +2,11 @@
 # Webtalk v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Mon Apr 26 13:03:50 2021
-# Process ID: 7732
-# Current directory: D:/GitHubRepos/CECS341/CECS-341-Lab-6/341lab6/341lab6.sim/sim_1/behav/xsim
-# Command line: wbtcv.exe -mode batch -source D:/GitHubRepos/CECS341/CECS-341-Lab-6/341lab6/341lab6.sim/sim_1/behav/xsim/xsim.dir/Datapath_tb_behav/webtalk/xsim_webtalk.tcl -notrace
-# Log file: D:/GitHubRepos/CECS341/CECS-341-Lab-6/341lab6/341lab6.sim/sim_1/behav/xsim/webtalk.log
-# Journal file: D:/GitHubRepos/CECS341/CECS-341-Lab-6/341lab6/341lab6.sim/sim_1/behav/xsim\webtalk.jou
+# Start of session at: Mon Apr 26 14:23:50 2021
+# Process ID: 6640
+# Current directory: E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6/341lab6.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6/341lab6.sim/sim_1/behav/xsim/xsim.dir/Datapath_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6/341lab6.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6/341lab6.sim/sim_1/behav/xsim\webtalk.jou
 #-----------------------------------------------------------
-source D:/GitHubRepos/CECS341/CECS-341-Lab-6/341lab6/341lab6.sim/sim_1/behav/xsim/xsim.dir/Datapath_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+source E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6/341lab6.sim/sim_1/behav/xsim/xsim.dir/Datapath_tb_behav/webtalk/xsim_webtalk.tcl -notrace
