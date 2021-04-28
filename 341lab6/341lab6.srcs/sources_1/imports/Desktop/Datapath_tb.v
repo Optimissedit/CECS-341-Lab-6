@@ -48,7 +48,7 @@ module Datapath_tb();
             $display("t=%t  address[%0d]:    %h%h%h%h", $time, i, uut.DataMem.dmem[i], uut.DataMem.dmem[i+1], uut.DataMem.dmem[i+2], uut.DataMem.dmem[i+3]);
             end
         $display("Final Values:");
-        for(i = 0; i < 17; i = i + 4) begin
+        for(i = 20; i < 36; i = i + 4) begin
             @(posedge clk)
             $display("t=%t  address[%0d]:    %h%h%h%h", $time, i, uut.DataMem.dmem[i], uut.DataMem.dmem[i+1], uut.DataMem.dmem[i+2], uut.DataMem.dmem[i+3]);
             end
@@ -56,7 +56,7 @@ module Datapath_tb();
     endtask
     
     initial begin
-        clk = 0; reset = 1; #45;
+        clk = 0; reset = 1; #20;
         $readmemh("imem.dat", uut.Instruction_Memory.imem);
         $readmemh("DataMem.dat", uut.DataMem.dmem);
         reset = 0; #900;

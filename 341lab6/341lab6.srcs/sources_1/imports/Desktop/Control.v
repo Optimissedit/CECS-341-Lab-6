@@ -173,7 +173,7 @@ module Control(
 					Jump = 1'b0;          // No jump required              
 					ALUCntl = 4'b1001;   // set less than unsigned
 				end
-				// JUMP CASE! (J Type) Todo: find control signal values
+				// JUMP CASE! (J Type) 
 				6'h02: begin
 				    RegWrite = 1'b0;     // not writing to registers
 					Regdst   = 1'b0;     //[20-16] not used
