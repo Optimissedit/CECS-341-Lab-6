@@ -4,9 +4,9 @@ Nov 18 2020
 09:47:47
 E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6/341lab6.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
 E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6/341lab6.srcs/sources_1/imports/Desktop/ALU.v,1617647042,verilog,,E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6/341lab6.srcs/sources_1/imports/Desktop/Control.v,,ALU,,,,,,,,
-E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6/341lab6.srcs/sources_1/imports/Desktop/Control.v,1619469866,verilog,,E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6/341lab6.srcs/sources_1/imports/Desktop/DataMem.v,,Control,,,,,,,,
+E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6/341lab6.srcs/sources_1/imports/Desktop/Control.v,1619637618,verilog,,E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6/341lab6.srcs/sources_1/imports/Desktop/DataMem.v,,Control,,,,,,,,
 E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6/341lab6.srcs/sources_1/imports/Desktop/DataMem.v,1617051610,verilog,,E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6/341lab6.srcs/sources_1/imports/Desktop/Datapath.v,,DataMem,,,,,,,,
-E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6/341lab6.srcs/sources_1/imports/Desktop/Datapath.v,1619471839,verilog,,E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6/341lab6.srcs/sources_1/imports/Desktop/Instruction_Memory.v,,Datapath,,,,,,,,
+E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6/341lab6.srcs/sources_1/imports/Desktop/Datapath.v,1619641509,verilog,,E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6/341lab6.srcs/sources_1/imports/Desktop/Instruction_Memory.v,,Datapath,,,,,,,,
 E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6/341lab6.srcs/sources_1/imports/Desktop/Datapath_tb.v,1619472579,verilog,,,,Datapath_tb,,,,,,,,
 E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6/341lab6.srcs/sources_1/imports/Desktop/Instruction_Memory.v,1615241234,verilog,,E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6/341lab6.srcs/sources_1/imports/Desktop/PC.v,,Instruction_Memory,,,,,,,,
 E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6/341lab6.srcs/sources_1/imports/Desktop/PC.v,1617648076,verilog,,E:/Documents/VivadoProjs/CECS-341-Lab-6/341lab6/341lab6.srcs/sources_1/imports/Desktop/PCADD.v,,PC,,,,,,,,
